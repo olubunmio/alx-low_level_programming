@@ -7,12 +7,6 @@
  */
 int main(void)
 {
-	int i;
-
-	for (i = 0; i <= 9; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+	printf("0%09d\n",0);	
 }
+
