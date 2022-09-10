@@ -7,7 +7,12 @@
  */
 int main(void)
 {
-	printf("1%09d\n", 0);
+	int i = 0;
+
+	while(i < 10)
+	{
+		printf("%d\n", i);
+	}
 	return (0);
 }
 
