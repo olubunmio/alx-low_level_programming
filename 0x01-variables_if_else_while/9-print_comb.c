@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * main - digit combinations
  *
  * Return: Always 0
+ *
  */
 int main(void)
 {
@@ -15,9 +16,9 @@ int main(void)
 		if (i != '9')
 		{
 			putchar(',');
-			putchar(' ');
+			putchar(' ' );
 		}
-		++1;
+		++i;
 	}
 	putchar('\n');
 	return (0);
