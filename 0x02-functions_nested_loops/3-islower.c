@@ -4,6 +4,9 @@
  * _islower - entry point
  *
  * Description: checks lowercase character
+ * @c: char to test
+ *
+ * Return: 1 if character is lowercase and 0 if character is not lowercase
  */
 int _islower(int c)
 {
