@@ -4,7 +4,7 @@
  * print_sign - entry point
  *
  * Description: prints the sign of a number
- * Return: 1 if number is greater than 0, 0 if number is 0, -1 if number is less than zero
+ * Return: 1 char > 0, 0 if char = 0, -1 if char < 0
  * @n: character to test
  */
 int print_sign(int n)
@@ -24,7 +24,7 @@ int print_sign(int n)
 		_putchar('-');
 		return (-1);
 	}
-	else 
+	else
 	{
 		_putchar(' ');
 		return ('/');
