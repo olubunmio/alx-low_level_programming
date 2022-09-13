@@ -5,7 +5,7 @@
  *
  * Description: checks lowercase character
  */
-int is_lower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
