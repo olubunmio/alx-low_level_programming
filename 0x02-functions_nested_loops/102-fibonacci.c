@@ -15,7 +15,7 @@ int main(void)
 		s = i + j;
 		i = j;
 		j = s;
-		print("%lu", s);
+		printf("%lu", s);
 		if (c == 49)
 		{
 			putchar('\n');
