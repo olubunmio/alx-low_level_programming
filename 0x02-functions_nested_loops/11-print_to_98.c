@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-/**
- * 
+/** 
  * print_to_98 - main entry
  *
+ * Description: print natural numberrs
  * Return: void
  * @i: number to start counting from
  */
