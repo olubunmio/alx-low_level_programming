@@ -3,7 +3,8 @@
 #include <string.h>
 /**
  * str_len - get lenght of a string
- * @n: string pointer
+ * _strlen - standard library to get lenght of a string
+ * @s: string pointer
  * Return: integer
  */
 int _strlen(char *s)
