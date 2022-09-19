@@ -4,7 +4,7 @@
 
 /**
  * rev_string - reverses a string
- * @s - string to be reversed
+ * @s: string to be reversed
  * Return: void
  */
 void rev_string(char *s)
@@ -17,4 +17,5 @@ void rev_string(char *s)
 	{
 		_putchar(s[i]);
 	}
+	_putchar('\n');
 }
