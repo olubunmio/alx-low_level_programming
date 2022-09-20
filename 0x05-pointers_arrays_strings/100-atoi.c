@@ -8,20 +8,20 @@
 int _atoi(char *s)
 {
 	int i, j, n, m;
-	bool check = false;
 
 	i = n = 0;
-	if (str[i] == '-')
+	j = 1;
+	if (s[i] == '-')
 	{
-		check = true;
+		j = -1;
 		i++;
 	}
-	while (str[i] && (str[i] >= '0' && str[i] <= '9'))
+	while (s[i] && (s[i] >= '0' && s[i] <= '9'))
 	{
-		n = n * 10 + (str[i] - '0');
+		n = n * 10 + (s[i] - '0');
 		i++;
 	}
-	if(check)
+	if(j = -1)
 		n = -1 * n;
 	return n;
 }
