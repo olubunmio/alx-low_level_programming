@@ -7,7 +7,7 @@
  */
 int _atoi(char *s)
 {
-	int i, j, n, m;
+	int i, j, n;
 
 	i = n = 0;
 	j = 1;
@@ -21,7 +21,7 @@ int _atoi(char *s)
 		n = n * 10 + (s[i] - '0');
 		i++;
 	}
-	if(j = -1)
+	if (j == -1)
 		n = -1 * n;
 	return n;
 }
