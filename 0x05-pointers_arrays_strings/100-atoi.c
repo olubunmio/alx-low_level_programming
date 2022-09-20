@@ -23,5 +23,5 @@ int _atoi(char *s)
 	}
 	if (j == -1)
 		n = -1 * n;
-	return n;
+	return (n);
 }
