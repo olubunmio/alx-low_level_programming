@@ -2,8 +2,8 @@
 
 /**
  * puts2 - prints a string 
- * @str: string to print
- * Return: void
+ * @str:string to print
+ * Return:void
  */
 void puts2(char *str)
 {
