@@ -14,7 +14,7 @@ char *cap_string(char *s)
 	k = 0;
 	while (s[j] != '\0')
 	{
-		if ((s[j] >= 'a' && s[j] <= 'z'))
+		if (s[j] >= 'a' && s[j] <= 'z')
 		{
 			if (j == 0)
 				s[j] -= 'a' - 'A';
