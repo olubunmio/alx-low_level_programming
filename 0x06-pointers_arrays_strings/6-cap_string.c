@@ -9,8 +9,8 @@ char *cap_string(char *s)
 {
 	int j, k;
 	char a[] = " \t\n,;.!?\"(){}";
-	k = 0;
 
+	k = 0;
 	while (s[j] != '\0')
 	{
 		if ((s[j] >= 'a' && s[j] <= 'z'))
