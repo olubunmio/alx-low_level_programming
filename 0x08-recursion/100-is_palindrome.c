@@ -7,9 +7,9 @@
  *
  * Return: string
  */
-int is_palindrome(int *s)
+int is_palindrome(char *s)
 {	
-	int l = strlen(*s);
+	int l = strlen(s);
 
 	if (*s != *(s + 1))
 	{
@@ -19,5 +19,5 @@ int is_palindrome(int *s)
 	{
 		return (1);
 	}
-	return (is_palindrome(s + 1, l - 2));
+	return (strcomp(s + 1, is_palindrome(l - 2));
 }
