@@ -9,7 +9,7 @@
  */
 void _puts_recursion(char *s)
 {
-	int i = 0, l = strlen(s);
+	int i = 0, n = strlen(s);
 
 	if (s[i] != '\0' && i < n)
 	{
