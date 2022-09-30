@@ -8,9 +8,7 @@
  * Return: string
  */
 int is_palindrome(char *s)
-{	
-	int l = strlen(s);
-
+{
 	if (*s != *(s + 1))
 	{
 		return (0);
