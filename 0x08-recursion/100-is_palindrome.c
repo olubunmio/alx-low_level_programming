@@ -9,6 +9,8 @@
  */
 int is_palindrome(char *s)
 {
+	int flag, int l = strlen(s);
+	
 	if (*s != *(s + 1))
 	{
 		return (0);
@@ -17,5 +19,10 @@ int is_palindrome(char *s)
 	{
 		return (1);
 	}
-	return (!(is_palindrome(s + 1)));
+	if (is_palindrome(s + 1) == (l - 1))
+		flag = 1;
+	else 
+		flag = 0;
+
+	return (flag);
 }
