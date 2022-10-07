@@ -7,7 +7,7 @@
  * @max: size to allocate
  * Return: int
  */
-void *array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int i = 0, *s;
 
