@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * print_numbers - function to print
- * @n: numbers of integers
- * @separator: string
+ * print_numbers - function to print numbers
+ * @n: numbers of integers to print
+ * @separator: string to print
  *
- * Return: void
+ * Return: sum of all paramaters
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -16,7 +16,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(vaList, n);
 
-	for (c = 1; c < n; c++)
+	for (c = 1; c <= n; c++)
 	{
 		printf("%i", va_arg(vaList, int));
 		if (c < n && separator)
