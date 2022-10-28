@@ -7,7 +7,7 @@
  *
  * Return: int
  */
-unsigned int flip_bits(unsigned long int n, unsigned int m)
+unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int xor = n ^ m, bits = 0;
 
