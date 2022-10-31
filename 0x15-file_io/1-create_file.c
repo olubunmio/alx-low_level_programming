@@ -20,8 +20,7 @@ int create_file(const char *filename, char *text_content)
 	}
 
 	o = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	r = read(o, text_content, l);
-	w = write(STDOUT_FILENO, buffer, r);
+	w = write(o, text_content, l);
 
 	if (o == -1 || w == -1)
 	{
